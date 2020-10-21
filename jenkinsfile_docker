@@ -1,6 +1,6 @@
 // docker集成docker部署
 pipeline {
-    agent {label 'master'}
+    agent {label 'mac'}
 
 
     environment {
@@ -41,7 +41,7 @@ pipeline {
             // 在应用服务器节点 test
             agent {
                 node {
-                    label 'master'
+                    label 'mac'
                     //customWorkspace "${SERVER_TARGET_PATH}"  //此参数会初始化目录 注意填写
                 }
             }
