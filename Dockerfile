@@ -19,8 +19,9 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositorie
     && apk add git gcc musl-dev libffi-dev openssl-dev make
 WORKDIR /install
 COPY requirements.txt /requirements.txt
-RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r /requirements.txt \
-    && pip --default-timeout=1000
+RUN  python -m pip install --upgrade pip\
+    && pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r /requirements.txt \
+    && pip --default-timeout=1000\
     && mkdir -p /install/lib/python3.7/site-packages \
     && cp -rp /usr/local/lib/python3.7/site-packages /install/lib/python3.7
 
