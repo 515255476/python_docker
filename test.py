@@ -1,4 +1,4 @@
 import os
 
 print("hello world")
-os.mkdir('test.txt')
+print("谢谢大家")
