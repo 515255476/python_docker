@@ -24,5 +24,8 @@ class TestMubuLogin():
     @pytest.mark.single
     def test_login_mubu(self):
         print("测试")
-
+    def test_login_mubu2(self):
+        print("测试")
+    def test_login_mubu3(self):
+        print("测试")
 
