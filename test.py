@@ -1,7 +1,7 @@
 import os
-
-# print("hello world")
-# print("谢谢大家")
+import cx_Oracle
+print("hello world")
+print("谢谢大家")
 
 
 import pytest
@@ -11,7 +11,7 @@ import allure
 # def step_1(username):
 #     print(("步骤1 ==>> 登录用户：{}"))
 
-
+oracle_db=cx_Oracle.connect()
 @allure.severity(allure.severity_level.NORMAL) #设置bug的重要级别
 @allure.epic("针对单个接口的测试")
 @allure.feature("用户登录模块")    #功能
