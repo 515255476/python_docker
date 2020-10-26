@@ -24,8 +24,22 @@ class TestMubuLogin():
     @pytest.mark.single
     def test_login_mubu(self):
         print("测试")
+
+    @allure.story("用例2")  # 子功能
+    @allure.description("该用例2")  # 描述
+    @allure.issue("https://www.cnblogs.com/wintest", name="点击，跳转到对应BUG的链接地址")  # 标注：可加入Url
+    @allure.testcase("https://www.cnblogs.com/wintest", name="点击，跳转到对应用例的链接地址")  # 标注：可加入url
+    @allure.title("测试数据2")
+    @pytest.mark.single
     def test_login_mubu2(self):
-        print("测试")
+        print("测试2")
+
+    @allure.story("用例3")  # 子功能
+    @allure.description("该用例3")  # 描述
+    @allure.issue("https://www.cnblogs.com/wintest", name="点击，跳转到对应BUG的链接地址")  # 标注：可加入Url
+    @allure.testcase("https://www.cnblogs.com/wintest", name="点击，跳转到对应用例的链接地址")  # 标注：可加入url
+    @allure.title("测试数据3")
+    @pytest.mark.single
     def test_login_mubu3(self):
-        print("测试")
+        print("测试3")
 
