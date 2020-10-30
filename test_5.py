@@ -1,4 +1,4 @@
 import sys
-p1=sys.argv[0]
+p1=sys.argv[1]
 
 print(p1)
