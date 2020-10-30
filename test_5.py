@@ -1,5 +1,5 @@
 
-from fun import fun
+from fun import Fun
 
-print(fun().fun_1())
+print(Fun().fun_1())
 

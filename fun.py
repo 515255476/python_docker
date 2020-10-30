@@ -1,7 +1,8 @@
 import sys
 p1=sys.argv[1]
+# p1='test'
 
-class fun():
+class Fun():
     def fun_1(self):
         if p1 == 'test':
             url = '测试url'
@@ -10,5 +11,3 @@ class fun():
             url = '开发url'
             oracle = '开发测试库'
         return url,oracle
-
-fun=fun()
