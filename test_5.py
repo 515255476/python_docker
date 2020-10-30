@@ -12,7 +12,7 @@
 # print(api_root_url)
 # print(oracle)
 import os
-
+import logging
 # print("hello world")
 # print("谢谢大家")
 
@@ -62,3 +62,5 @@ class TestMubuLogin():
         # env=os.environ['env']
         print(env)
 
+
+TestMubuLogin().test_login_mubu3()
