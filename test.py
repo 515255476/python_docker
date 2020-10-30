@@ -41,5 +41,5 @@ class TestMubuLogin():
     @allure.title("测试数据3")
     @pytest.mark.single
     def test_login_mubu3(self):
-        print("测试3")
+        print("测试4")
 
