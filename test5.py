@@ -3,7 +3,7 @@ import os
 
 env=os.getenv('PWD')
 # env=os.environ['env']
-print("hahha")
+print(env)
 # if env=='test':
 #     api_root_url="测试：http://10.43/xtrading"
 #     oracle="oracle测试地址"
