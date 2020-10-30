@@ -1,5 +1,5 @@
 
-from python_docker.fun import fun
+import fun
 
-print(fun().fun_1()[0])
+print(fun().fun_1())
 
