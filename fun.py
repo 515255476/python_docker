@@ -10,3 +10,5 @@ class fun():
             url = '开发url'
             oracle = '开发测试库'
         return url,oracle
+
+fun=fun()

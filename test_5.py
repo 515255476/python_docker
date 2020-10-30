@@ -1,5 +1,5 @@
 
-import fun
+from fun import fun
 
 print(fun().fun_1())
 
