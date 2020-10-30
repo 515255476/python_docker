@@ -1,7 +1,7 @@
 import sys
 p1=sys.argv[1]
 
-print(p1)
+
 
 if p1=='test':
     url='测试url'
@@ -9,3 +9,5 @@ if p1=='test':
 elif p1=='dev':
     url='开发url'
     oralce='开发测试库'
+
+print(url+''+oralce)
