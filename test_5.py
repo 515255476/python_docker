@@ -10,4 +10,4 @@ elif p1=='dev':
     url='开发url'
     oracle='开发测试库'
 
-print(url + '' + oracle)
+print(url + " "+ oracle)
